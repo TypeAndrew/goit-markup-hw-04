@@ -63,6 +63,8 @@ body {
 .contact {
     text-decoration: none;
     color: var(--color-brown);
+    display: flex;
+    justify-items: center;
 }
 
 a:hover {
@@ -112,7 +114,7 @@ a:hover {
 }
 
 .menu-nav-address {
-    display: block;
+    display: flex;
     align-self: center;
     margin-left: auto;
 }
@@ -150,6 +152,7 @@ a:hover {
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-color: var(--color-blue);
+    
 }
 
 .tittle-big {
@@ -182,9 +185,9 @@ a:hover {
 }
 
 .tittle-footer {
-    /*padding-bottom: 50px;*/
-    margin-top: 8px;
-    margin-bottom: 30px;
+    /*padding-bottom: 50px;
+    margin-top: 8px;*/
+    margin-bottom: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -197,6 +200,9 @@ a:hover {
 
 .main-top {
     
+    max-width: 1600px;
+    margin: 0 auto;
+
     padding-top: 200px;
     padding-bottom: 200px;
     /*display: flex; 
@@ -207,7 +213,7 @@ a:hover {
 
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(0, 0, 0, 0.4)), url('../images/main-img.jpg');
     
-    background-size: 1600px cover;
+    
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
 }
@@ -469,7 +475,8 @@ a:hover {
     justify-content: center;
     margin-bottom: 30px;
     background-color: var(--color-grey);
-    padding: 25px 102.34px ;
+    /*padding: 25px 102.34px;*/
+    height: 120px;
     border-radius: 4px;
     all
 }
@@ -477,6 +484,7 @@ a:hover {
 .icon-contact {
     margin-right: 10px;
     background-size: cover;
+    fill: currentColor;
 }
 
 .icon-contact-mail {
@@ -484,6 +492,7 @@ a:hover {
     margin-right: 10px;
     background-size: cover;
     align-content: center;
+    fill: currentColor;
    
 }
 
@@ -629,7 +638,7 @@ a:hover {
 
 }
 
-.item-project:hover {
+.refer-project:hover {
 
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
